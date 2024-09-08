@@ -1,0 +1,44 @@
+/* WeatherPage.css */
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+    padding: 20px;
+    border-color: purple;
+    border: 2px solid;
+    width: 50%;
+  }
+  
+  .weather-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: purple;
+  }
+  
+  .weather-details {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .weather-icon {
+    margin: 10px 0;
+  }
+  
+  .weather-icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-data {
+    margin: 10px 0;
+  }
+  
+  .weather-data p {
+    margin: 5px 0;
+  }
+  
